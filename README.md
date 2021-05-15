@@ -1,10 +1,10 @@
-# data_filter
+# data_filter 项目
 This is a repository providing data filtering methods by one-pass clustering algorithm. TF-IDF and w2v features are used.
 
-# 如何运行？
-将整个项目拷贝到自己的目录中，再该目录中建一个data文件夹，data文件夹中放入需要处理的数据文件
+## 如何运行？
+将整个项目拷贝到自己的目录中，在该目录中建一个data文件夹，data文件夹中放入需要处理的数据文件
 
-# pay attention!
+## pay attention!
 代码针对的数据文件格式是json格式
 例如：
 [
