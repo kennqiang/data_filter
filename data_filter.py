@@ -30,7 +30,8 @@ def gen_filtered_rumor():
             for index in cluster.node_list:
                 # print(index)
                 item = items[index]
-                data_cluster.append(item)
+                content = item['content']
+                data_cluster.append(content)
             if(data_cluster == []):
                 print("该簇为空")
             weibos = [r['reportedWeibo'] for r in rumor_cluster]
